@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 242);
+
+}
+.container{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: solid gray 1px;
+    border-radius: .6rem;
+background-color: #fff;}
+img{
+    width: 100%;
+}
+img:hover, img:focus{
+    opacity: .4;
+}
